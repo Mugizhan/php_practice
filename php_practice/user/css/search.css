@@ -1,0 +1,218 @@
+body{
+    background-image:url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+.heading{
+    color:aliceblue;
+    font-size: 35px;
+    font-family: Arial Black;
+    font-weight: bolder;
+    position:absolute;
+    top:8px;
+    left:8%;
+    letter-spacing: -3px;
+}
+.heading span{
+    color:aqua;
+    font-size: 40;
+}
+.sub{
+    font-size: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position:absolute;
+    top:50px;
+    left:7.5%;
+}
+a{
+    text-decoration: none;
+    position:relative;
+    left:50%;
+    bottom:5%;
+    font-family: 'Arial Narrow';
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+    width:5%;
+    height:20%;
+    padding-right:1px;
+}
+a:hover{
+    color:rgb(0, 0, 0);
+    border-bottom:2px solid rgb(255, 255, 255) ;
+    border-right: 2px solid rgb(255, 255, 255);
+    background-color: aqua;
+    padding-right:10px;
+    border-radius: 15px;
+
+}
+
+.geting{
+    position:absolute;
+    left:35%;
+    top:19%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    width:60%;
+    height:23%;  
+    opacity: .9;
+}
+.geting th{
+    background-color:rgb(40, 37, 31);
+    color:aliceblue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.geting td{
+    padding-top:0.5%;
+    padding-bottom: .5%;
+
+}
+.geting tr:nth-child(odd){
+    background-color:rgb(249, 169, 222);
+
+}
+.geting tr:nth-child(even){
+    background-color:rgb(255, 255, 255);
+}
+.search{
+	position:absolute;
+    right:73%;
+    top:17%;
+    background-color: rgba(255, 255, 255, 0.7);
+    color:rgb(0, 0, 0);
+    width:24%;
+    height:7%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius:20px;
+    border:none;
+    font-size:18px;
+	
+}
+.button{
+	position:absolute;
+    right:70%;
+    top:17%;
+    background-color: rgba(255, 255, 255, 0.9);
+    color:rgb(0, 0, 0);
+    width:3%;
+    height:7%;
+    border-radius: 15px;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+	
+}
+.button:hover{
+    background-color:rgba(0, 0, 0, 0.7);
+    color:white;
+        
+}
+
+.report{
+	background-color: rgba(253, 253, 253, 0.4);
+    width:25%;
+    height:30%;
+    padding-top:3%;
+    position:absolute;
+    left:4%;
+    bottom:25%;
+    border-radius:25px;
+    border-top:1px solid rgb(255, 255, 255);
+    border-left:1px solid white;
+    box-shadow: 5px 5px 8px black;
+    flex-direction: column;
+    padding-bottom:3%;
+	
+}
+.report font{
+    color:black;
+    position:absolute;
+    top:5%;
+    left:27%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.regl{
+    font-family:arial;
+    position:absolute;
+    left:6%;
+}
+.reg{
+    background: transparent;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width:46%;
+    height:10%;
+    font-size:15px;
+    position:absolute;
+    right:15%;
+    bottom:69%;
+    color:rgb(0, 0, 0);
+}
+.acc{
+    background: transparent;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width:46%;
+    height:10%;
+    font-size:15px;
+    position:absolute;
+    right:15%;
+    bottom:58%;
+    color:rgb(0, 0, 0);
+}
+.issue{
+    background: transparent;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width:46%;
+    height:10%;
+    font-size:15px;
+    position:absolute;
+    right:15%;
+    bottom:46%;
+    color:rgb(0, 0, 0);
+}
+.ret{
+    background: transparent;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width:46%;
+    height:10%;
+    font-size:15px;
+    position:absolute;
+    right:15%;
+    bottom:35%;
+    color:rgb(0, 0, 0);
+}
+.submit{
+    background-color: rgb(0, 0, 0,0.5);
+    color:white;
+    height:10%;
+    width:20%;
+    border:none;
+    border-top:1px solid white;
+    border-left:1px solid white;
+    position:absolute;
+    right:45%;
+    top:80%;
+    border-radius: 10px;
+    box-shadow:3px 3px 5px black;
+}
+.submit:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
+    border-top:2px solid black;
+    border-left:2px solid black;
+}
