@@ -1,0 +1,229 @@
+body{
+    background:url("../image/anime-landscape-library-nature-hd-wallpaper-preview.jpg");
+    background-position:center;
+    background-size:cover;
+    height:45%;
+}
+.mh{
+    position:fixed;
+    top: -10px;
+    left:1px;
+    width:100%;    
+    height:13%;
+
+}
+.head{
+    position:relative;
+    padding-bottom:1%;
+    padding-top:40%;
+    padding-right:3%;
+    font-size:60px;
+    font-family:Colonna MT;
+    color:rgb(0, 0, 0);
+    text-shadow:5px 5px 8px rgb(255, 255, 255);
+}
+.loginpng{
+    position:relative;
+    left:8%;
+}
+.admin{
+    position:absolute; 
+    bottom:92%; 
+    left:43%;
+    color: orange;
+}
+.admin b{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.admin span{
+    position: relative;
+    font: size 13px;
+    color:aliceblue;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+.logout{
+    position:absolute;
+    right:20px;
+    top:2%;
+
+}
+.add{
+    position:absolute;
+    right:120px;
+    top:19%;
+    background-color:aliceblue;
+    padding:3px;
+    border-radius:20px;
+}
+.add:hover{
+    padding:4.5px;
+}
+.logout:hover{
+    position:absolute;
+    height:100%;
+    width:30px;
+    
+}
+.home{
+    position:absolute;
+    left:20%;
+    bottom:74%;
+}
+.home1{
+    position:absolute;
+    left:25%;
+    bottom:71%;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    position: absolute;
+    left:-30px;
+    top:63.5px;
+    height:100%;
+    width:20%;
+    background-color:slategrey;
+    opacity:0.9;
+}
+li ol a{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+li ol a:hover{
+    background-color: rgb(62, 61, 61);
+    padding-top: 5%;
+    padding-bottom:5%;
+    padding-right:40%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    border-left:4px solid orange;
+}
+.fetch,.fetch th,.fetch td{
+    border:1px solid rgb(0, 0, 0);
+
+}
+.fetch{
+    position:absolute;
+    left:20%;
+    top:30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    width:78%;  
+    opacity: .9;
+}
+.fetch th{
+    background-color:rgb(0, 0, 0);
+    color:aliceblue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.fetch td{
+    padding-top:0.5%;
+    padding-bottom: .5%;
+
+}
+.fetch tr:nth-child(odd){
+    background-color:rgb(255, 177, 8);
+}
+.fetch tr:nth-child(even){
+    background-color:rgb(244, 222, 186);
+}
+.report{
+	background-color: rgba(253, 253, 253, 0.8);
+    width:25%;
+    height:30%;
+    padding-top:3%;
+    padding-bottom:1%;
+    position:absolute;
+    left:50%;
+    bottom:25%;
+    border-radius:25px;
+    border-top:1px solid rgb(255, 255, 255);
+    border-left:1px solid white;
+    box-shadow: 5px 5px 8px black;
+    flex-direction: column;
+    padding-bottom:-25%;
+	
+}
+.report font{
+    color:black;
+    position:absolute;
+    top:5%;
+    left:27%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.regl{
+    font-family:arial;
+    position:relative;
+    left:3%;
+    bottom:1%;
+
+}
+.reg{
+    background: transparent;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width:46%;
+    height:10%;
+    font-size:15px;
+    position:absolute;
+    right:10%;
+    bottom:62.5%;
+    color:rgb(0, 0, 0);
+
+}
+.accno{
+    background: transparent;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width:46%;
+    height:10%;
+    font-size:15px;
+    position:absolute;
+    right:10%;
+    bottom:46.5%;
+    color:rgb(0, 0, 0);
+
+}
+.ret{
+    background: transparent;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width:46%;
+    height:10%;
+    font-size:15px;
+    position:absolute;
+    right:10%;
+    bottom:30%;
+    color:rgb(0, 0, 0);
+}
+.submit{
+    background-color: rgb(0, 0, 0,0.5);
+    color:white;
+    height:13%;
+    width:20%;
+    border:none;
+    border-top:1px solid white;
+    border-left:1px solid white;
+    position:absolute;
+    right:45%;
+    top:85%;
+    border-radius: 10px;
+    box-shadow:3px 3px 5px black;
+}
+.submit:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
+    border-top:2px solid black;
+    border-left:2px solid black;
+}
+
